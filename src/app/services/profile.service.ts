@@ -1,9 +1,12 @@
 import { Injectable } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
-@Injectable({
-  providedIn: 'root'
-})
+import 'rxjs/add/operator/map'
+
+@Injectable()
 export class ProfileService {
 
-  constructor() { }
+  constructor() {
+
+  }
 }
